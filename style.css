@@ -1,0 +1,25 @@
+body {
+	background-color: #1a1a1a;
+	font-family: sans-serif;
+	color: white;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	text-decoration: underline;
+}
+:link {
+	color: #87CEFA;
+}
+:visited {
+	color: #88c;
+}
+.container {
+	width: 50%;
+	margin: 0 auto;
+}
+.container p {
+	text-align: left;
+}
