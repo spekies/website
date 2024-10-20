@@ -40,7 +40,7 @@ function simulateLoading() {
         if (index < loadingMessages.length) {
             loadingMessagesContainer.textContent += loadingMessages[index] + '\n';
             index++;
-            setTimeout(logNextMessage, 500); // test and adjust timing
+            setTimeout(logNextMessage, 250); // test and adjust timing
         } else {
             document.getElementById("loading-screen").style.display = "none";
             document.getElementById("container").style.display = "block";
