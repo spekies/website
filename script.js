@@ -48,5 +48,4 @@ function simulateLoading() {
     }
     logNextMessage();
 }
-
 window.onload = simulateLoading;
